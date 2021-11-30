@@ -3,4 +3,6 @@ This repository is intended to create a series of notebooks that illustrate the 
 ## List of Notebooks:
 
 - **01-Intro2FAIR.ipynb**: Introduces the FAIR principles and a set metrics used to evaluate FAIRness of datasets
-- **02-FAIRCheck-MNIST.ipynb**: Explores the MNIST dataset and its FAIRness using the metrics introduced in the previous notebook 
+- **02-FAIRCheck-MNIST.ipynb**: Explores the MNIST dataset and its FAIRness using the metrics introduced in the previous notebook
+- **03-FAIRCheck-CDMS.ipynb**: Explores the superCDMS dataset and its FAIRness
+- **04-CDMS-LR.ipynb**: Explores linear regression along with Ridge and Lasso Regularizations and preservation of these models

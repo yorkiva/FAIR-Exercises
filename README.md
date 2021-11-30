@@ -6,3 +6,4 @@ This repository is intended to create a series of notebooks that illustrate the 
 - **02-FAIRCheck-MNIST.ipynb**: Explores the MNIST dataset and its FAIRness using the metrics introduced in the previous notebook
 - **03-FAIRCheck-CDMS.ipynb**: Explores the superCDMS dataset and its FAIRness
 - **04-CDMS-LR.ipynb**: Explores linear regression along with Ridge and Lasso Regularizations and preservation of these models
+- **05-CDMS-PCA.ipynb**: Explores Principal Component Analysis based linear regression 

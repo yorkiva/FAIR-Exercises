@@ -1,0 +1,48 @@
+{
+   "genInfo": "\nThis set of models represents the trained parameters for a Linear Regression model for determining the impact location on a superCDMS prototype based on timing measurements. \n",
+   "data_ID": "https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/data/processed_csv/processed_combined.csv?raw=true",
+   "model_ID": "",
+   "keywords": [
+      "normalization",
+      "test_data",
+      "Linear_Regression",
+      "Ridge_Regression",
+      "Lasso_Regression"
+   ],
+   "model_keys": {
+      "normalization": {
+         "description": "Vectors for data standardization",
+         "entries": {
+            "x_mean": "Mean value of input features",
+            "x_std": "St. deviation of input features",
+            "y_norm": "Normalization constant for target variable"
+         }
+      },
+      "test_data": {
+         "description": "How the test_data has been isolated",
+         "entries": {
+            "labels": "Data label for target variable to separate test dataset"
+         }
+      },
+      "Linear_Regression": {
+         "description": "Model parameters for a simple linear least squared model",
+         "entries": {
+            "coeffs": "List of linear coefficients for input features, the first entry represents the intercept"
+         }
+      },
+      "Ridge_Regression": {
+         "description": "Model parameters for a linear least squared model with Ridge regularization",
+         "entries": {
+            "coeffs": "List of linear coefficients for input features, the first entry represents the intercept",
+            "alpha": "Value of regularization strength determining model hyperparameter"
+         }
+      },
+      "Lasso_Regression": {
+         "description": "Model parameters for a linear least squared model with Lasso regularization",
+         "entries": {
+            "coeffs": "List of linear coefficients for input features, the first entry represents the intercept",
+            "alpha": "Value of regularization strength determining model hyperparameter"
+         }
+      }
+   }
+}

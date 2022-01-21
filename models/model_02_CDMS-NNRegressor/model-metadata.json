@@ -1,0 +1,21 @@
+{
+   "genInfo": "\nThis set of models represents the trained parameters for a Linear Regression model for determining the impact location on a superCDMS prototype based on timing measurements. \n",
+   "data_ID": "https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/data/processed_csv/processed_combined.csv?raw=true",
+   "model_ID": "",
+   "model_keys": {
+      "epoch": "The iteration ID when this model was saved",
+      "loss": "The value of training loss when this model was saved",
+      "model_state_dict": "parameters of the model",
+      "optimizer_state_dict": "parameters of the optimizer"
+   },
+   "hyperparameters": {
+      "n_epochs": 100,
+      "batch_size": 128,
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "n_hidden_layers": 1,
+      "n_nodes_in hidden_layers": 32,
+      "activation": "LeakyReLU",
+      "activation_hyperparameter": 0.01
+   }
+}

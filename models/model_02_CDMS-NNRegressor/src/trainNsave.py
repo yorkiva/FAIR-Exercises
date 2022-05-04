@@ -61,7 +61,7 @@ plt.legend()
 model_metadata = {}
 
 model_metadata['genInfo'] = '''
-This set of models represents the trained parameters for a Linear Regression model for determining the impact location on a superCDMS prototype based on timing measurements. 
+This set of models represents the trained parameters for a Neural Network based Regression model for determining the impact location on a superCDMS prototype based on timing measurements. 
 '''
 model_metadata['data_ID']  = 'https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/data/processed_csv/processed_combined.csv?raw=true'
 model_metadata['model_ID'] = ''

@@ -7,7 +7,7 @@ This repository is intended to create a series of notebooks that illustrate the 
 - **03-FAIRCheck-CDMS.ipynb**: Explores the superCDMS dataset and its FAIRness
 - **04a-CDMS-LR.ipynb**: Explores linear regression along with Ridge and Lasso Regularizations and preservation of these models
 - **04b-CDMS-LR-FAIR.ipynb**: Explores how the model can be built, preserved, and reused in line with the FAIR principles
-- **05a-CDMS-PCA.ipynb**: Explores Principal Component Analysis based linear regression. **Building a model scripts in a FAIR way and demonstrating its use via a notebook is left as an exercise**
+- **05a-CDMS-PCA.ipynb**: Explores Principal Component Analysis based linear regression. **Building model scripts in a FAIR way and demonstrating its use via a notebook is left as an exercise**
 - **07a-CDMS_NNRegressor.ipynb**: Explores a Neural Network based approach to solve the regression from on the CDMS dataset
 - **07b-CDMS_NNRegressor-FAIR.ipynb**: Explores how the NN based model can be built, preserved, and reused in line with the FAIR principles
 - **08a-CDMS_NNVAE.ipynb**: An introduction to Variation Auto Encoder and its implementation for the CDMS dataset
